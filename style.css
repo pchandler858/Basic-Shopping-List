@@ -1,0 +1,60 @@
+body {
+  color: #484848;
+  font-family: "Lato", sans-serif;
+  padding: 0.45em 2.65em 3em;
+  line-height: 1.5;
+}
+h1 {
+  color: #508abc;
+  margin-bottom: 0;
+}
+h1 + p {
+  font-size: 1.08em;
+  color: #508abc;
+  margin-top: 0.5em;
+  margin-bottom: 2.65em;
+  padding-bottom: 1.325em;
+  border-bottom: 5px dotted;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: 0.45em 0.5em;
+  margin-bottom: 0.35em;
+  /* display: flex; */
+  align-items: center;
+}
+input,
+button {
+  font-size: 0.85em;
+  padding: 0.65em 1em;
+  border-radius: 0.3em;
+  outline: 0;
+}
+input {
+  border: 1px solid #dcdcdc;
+  margin-right: 1em;
+}
+
+button {
+  color: white;
+  background: dodgerblue;
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+#delete {
+  margin-left: auto;
+  cursor: pointer;
+  background: #52bab3;
+  position: absolute;
+  right: 0;
+  margin-right: 2em;
+}
+
+.done {
+  text-decoration: line-through;
+}
