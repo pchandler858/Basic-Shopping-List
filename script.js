@@ -38,6 +38,7 @@ function createListElement() {
   var ul = document.getElementsByTagName("ul")[0];
   var li = document.createElement("li");
   li.appendChild(document.createTextNode(input.value));
+  li.addEventListener("click", toggleDone);
   addDeleteButton(li);
   ul.appendChild(li);
   input.value = "";
