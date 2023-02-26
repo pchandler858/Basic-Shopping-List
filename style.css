@@ -19,12 +19,16 @@ h1 + p {
 ul {
   padding-left: 0;
   list-style: none;
+  width: 100%;
 }
 li {
   padding: 0.45em 0.5em;
   margin-bottom: 0.35em;
-  /* display: flex; */
+  display: flex;
   align-items: center;
+  justify-content: space-between;
+  position: relative;
+  max-width: 500px;
 }
 input,
 button {
@@ -53,8 +57,13 @@ button {
   position: absolute;
   right: 0;
   margin-right: 2em;
+  text-decoration: none !important;
 }
 
 .done {
   text-decoration: line-through;
+}
+
+.container {
+  display: flex;
 }
